@@ -1,0 +1,29 @@
+.tt-dataset {
+	min-width: 150px;
+	color: #212529;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-radius: 0.25rem;
+}
+
+.tt-suggestion {
+	cursor: pointer;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.tt-suggestion:hover {
+	background: #f1f7ff !important;
+	border-left: 3px solid #0a5be5;
+}
+
+.tt-menu {
+	z-index: 9999 !important;
+}
+
+.twitter-typeahead{
+	position: relative;
+	display: block !important;
+}
